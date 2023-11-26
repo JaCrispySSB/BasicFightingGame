@@ -1,0 +1,82 @@
+body {
+    background-color: aqua;
+}
+
+.Container {
+    position: relative;
+    display: inline-block;
+}
+
+
+.SubContainer {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+#playerContainer {
+    height: 30px;
+    width: 100%;
+    position: relative;
+    display: flex; 
+    justify-content: flex-end;
+}
+
+#playerBG {
+    background-color: red;
+    height: 30px;
+    width: 100%;
+}
+
+#playerHealth {
+    position: absolute;
+    background-color: yellow;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+#Timer {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#enemyContainer {
+    height: 30px;
+    width: 100%;
+    position: relative;
+}
+
+#enemyBG {
+    background-color: red;
+    height: 30px;
+}
+
+#enemyHealth {
+    position: absolute;
+    background-color: yellow;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#Win {
+    position: absolute;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
